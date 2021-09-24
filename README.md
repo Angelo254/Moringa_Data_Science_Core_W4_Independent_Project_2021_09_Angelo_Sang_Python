@@ -1,4 +1,5 @@
-### INDEPENDENT-PROJECT-ON-HYPOTHESIS-TESTING
+# INDEPENDENT-PROJECT-ON-HYPOTHESIS-TESTING
+
 ## BUSINESS UNDERSTANDING 
 Autolib car-sharing service would like to get some insight on the usage of Blue cars and determine the most popular Postal Code for picking up Blue cars between Postal Code 75015 and Postal Code 75017.
 
@@ -12,18 +13,18 @@ In France,postal codes are used to identify the location of a place. First two d
 ## METRIC FOR SUCCESS 
 This project will be successful when we identify whether the Blue cars taken in postal code 75015 are the same as Blue Cars taken in Postal Code 75017
 
-### HYPOTHESIS
+# HYPOTHESIS
 Is the number of Blue cars taken in postal code equal to the number of Blue cars taken in Postal Code 75017 ?
 
 ## NULL HYPOTHESIS 
 The average number of Blue cars taken from Postal code 75015 Paris over weekend is same as those taken in Postal Code 75015. 
-# Ho : μ of 75015 = μ of 75017 
+### Ho : μ of 75015 = μ of 75017 
 
 ## ALTERNATE HYPOTHESIS 
 The average number of Blue cars taken from Postal code 75015 Paris over the weekend is not the same as those taken in Postal Code 75017.
-# Ha : μ of 75015 ≠ μ of 75017
+### Ha : μ of 75015 ≠ μ of 75017
 
-### Test Static
+# Test Static
 Test used T-test since the size of the sampeles is less than 30
 
 ## Significance Level 
