@@ -1,37 +1,47 @@
-# INDEPENDENT-PROJECT-ON-HYPOTHESIS-TESTING
+# INDEPENDENT_PROJECT_ON_SUPERVISED_LEARNING_WITH_EXPLORATORY_DATA_ANALYSIS_MCHEZO_PESA_PROJECT.
 
 ## BUSINESS UNDERSTANDING 
-Autolib car-sharing service would like to get some insight on the usage of Blue cars and determine the most popular Postal Code for picking up Blue cars between Postal Code 75015 and Postal Code 75017.
-
-* Postal code 75015 The 15th arrondissement of Paris is one of the 20 of the Capital city of France. In spoken French, this arrondissement is referred to as quinzieme The land area of this arrondissement is 8.502 km2 This is the most populous arrondissement of Paris, with 225,362 inhabitants at the last census in 1999. With 144,667 jobs at the same census, the 15th is also very dense in business activities. This arrondissement is home to many families and is known in Paris as one of the quietest sections in Paris. The majority of the arrondissement is relatively unfrequented by tourists, a rarity for one of the world's most visited cities.
-
-* Postal code 75017 The land area of this arrondissement is 5.669 km2 Today, the arrondissement remains dense in population and business activity, with 160,860 inhabitants and 92,267 jobs as of the most recent census (1999).
+ Mchezo pesa is a football analyst company in East Africa. Mchezo-Pesa would like to predict the result of a game based whether the teams playing are in their home country or not and whether the game is friendly or not.
 
 ## PROBLEM STATEMENT 
-In France,postal codes are used to identify the location of a place. First two digits represent the district, and the last three are for subdivisions (town or neighborhood). The dataset provided has 104 distinct postal codes. Considering Postal code 75015 and 75017, identify whether the rate at which Bluecars are picked from the two stations is the same
+A prediction result of a game between team 1 and team 2, based on who's home and who's away, and on whether or not the game is friendly (include rank in your training).
 
 ## METRIC FOR SUCCESS 
-This project will be successful when we identify whether the Blue cars taken in postal code 75015 are the same as Blue Cars taken in Postal Code 75017
+This project will be successful when:
 
-# HYPOTHESIS
-Is the number of Blue cars taken in postal code equal to the number of Blue cars taken in Postal Code 75017 ?
+1) We accurately predict the winning team based on the two factors:
 
-## NULL HYPOTHESIS 
-The average number of Blue cars taken from Postal code 75015 Paris over weekend is same as those taken in Postal Code 75015. 
-### Ho : μ of 75015 = μ of 75017 
+       a)Home team or away team
+      
+       b)The type of tournament 
 
-## ALTERNATE HYPOTHESIS 
-The average number of Blue cars taken from Postal code 75015 Paris over the weekend is not the same as those taken in Postal Code 75017.
-### Ha : μ of 75015 ≠ μ of 75017
+2) The model achieves atleast 80% accuracy
 
-# Test Static
-Test used T-test since the size of the sampeles is less than 30
+3) Have the lowest RMSE score possible
 
-## Significance Level 
-Significance Level 5%, Alpha = 0.05
+### d) Experimental Design
+The project was undertaken using the following design
+Datasets(Fifa-ranking.csv + results.csv)
 
-## Results
-Test statistic = 1.1384199576606167 P-Value = 0.3729402871375441
+* Merging datasets
 
-## Conclusions 
-Failed to reject the Null Hypothesis
+* Performing EDA
+
+* Feature Engineering
+
+* Polynomial Regression
+
+* Logistic regression
+
+* Computing the RMSE
+
+* Plotting residual plots
+
+* Assessing their heteroscedasticity using Barlette's test
+
+* Challenging the solution
+
+* Conclusion
+
+## Conclusion
+Polynomial Regression and Logistic Regression did yield an accurate model to predict the FIFA outcomes since there RMSE scores were quite low hence high predictive capability.
