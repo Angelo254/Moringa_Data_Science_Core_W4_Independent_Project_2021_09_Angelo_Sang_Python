@@ -11,9 +11,9 @@ This project will be successful when:
 
 1) We accurately predict the winning team based on the two factors:
 
-       a)Home team or away team.
+       a)Home team or away team
       
-       b)The type of tournament.
+       b)The type of tournament
 
 2) The model achieves atleast 80% accuracy.
 
