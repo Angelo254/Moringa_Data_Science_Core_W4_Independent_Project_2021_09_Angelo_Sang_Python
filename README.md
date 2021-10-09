@@ -15,9 +15,9 @@ This project will be successful when:
       
        b)The type of tournament 
 
-2) The model achieves atleast 80% accuracy
+2) The model achieves atleast 80% accuracy.
 
-3) Have the lowest RMSE score possible
+3) Have the lowest RMSE score possible.
 
 ### d) Experimental Design
 The project was undertaken using the following design
